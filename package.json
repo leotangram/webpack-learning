@@ -1,0 +1,20 @@
+{
+  "name": "curso-de-webpack",
+  "version": "1.0.0",
+  "description": "Este es un curso muy divertido",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack app.js -o bundle.js",
+    "build:local": "webpack"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Leonardo Omaña",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.17.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
